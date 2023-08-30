@@ -26,7 +26,7 @@ public class User extends Model{
         return "User{" +
                 "userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
-                ", dacreated=" + dacreated +
+                ", dacreated=" + datecreated +
                 ", lastModified=" + lastModified +
                 ", createdBy='" + createdBy + '\'' +
                 ", updatedBy='" + updatedBy + '\'' +
