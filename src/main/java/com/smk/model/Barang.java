@@ -1,7 +1,5 @@
 package com.smk.model;
 
-import com.sun.org.apache.xpath.internal.objects.XString;
-
 public class Barang extends Model{
     private String kodeBarang;
 
