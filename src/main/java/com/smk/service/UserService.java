@@ -9,6 +9,7 @@ import java.util.StringTokenizer;
 
 public class UserService {
     FileWriter userServiceWriter;
+    
     FileReader userServiceReader;
     List<User> userList = new LinkedList<>();
     private static UserService userService = null;
