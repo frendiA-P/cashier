@@ -36,7 +36,7 @@ public class Barang extends Model{
                 "kodeBarang='" + kodeBarang + '\'' +
                 ", namaBarang='" + namaBarang + '\'' +
                 ", hargaBarang=" + hargaBarang +
-                ", datecreated=" + datecreated +
+                ", datecreated=" + dateCreated +
                 ", lastModified=" + lastModified +
                 ", createdBy='" + createdBy + '\'' +
                 ", updatedBy='" + updatedBy + '\'' +

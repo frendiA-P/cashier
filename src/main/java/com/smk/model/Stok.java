@@ -35,7 +35,7 @@ public class Stok extends Model{
                 "id=" + id +
                 ", kodeBarang='" + kodeBarang + '\'' +
                 ", stokBarang=" + stokBarang +
-                ", datecreated=" + datecreated +
+                ", datecreated=" + dateCreated +
                 ", lastModified=" + lastModified +
                 ", createdBy='" + createdBy + '\'' +
                 ", updatedBy='" + updatedBy + '\'' +
