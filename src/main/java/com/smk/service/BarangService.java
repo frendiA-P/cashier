@@ -61,6 +61,7 @@ public class BarangService {
         BufferedWriter bufferedWriter
                 = new BufferedWriter(
                         barangServiceWriter
+
         );
         for (int i = 0; i < barangList.size(); i++) {
             Barang barang = barangList.get(i);
@@ -80,6 +81,7 @@ public class BarangService {
                 e.printStackTrace();
             }
         }
+
         try {
             bufferedWriter.close();
         } catch (IOException e) {

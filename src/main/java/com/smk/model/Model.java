@@ -3,18 +3,18 @@ package com.smk.model;
 import java.util.Date;
 
 public abstract class Model {
-    protected Date datecreated;
+    protected Date dateCreated;
     protected Date lastModified;
 
     protected String createdBy;
     protected String updatedBy;
 
-    public Date getDatecreated() {
-        return datecreated;
+    public Date getDateCreated() {
+        return dateCreated;
     }
 
-    public void setDatecreated(Date datecreated) {
-        this.datecreated = datecreated;
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
     }
 
     public Date getLastModified() {
